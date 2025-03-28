@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="pyapidocs",
-    version="0.1.0",
+    version="0.1.1",
     description="A cli tool to generate api docs",
     author="ai-adam-dev",
     url="https://github.com/ai-adam-dev/pyapidocs",
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pydoc = src.pydoc.main:cli",
+            "pyapidocs = src.main:cli",
         ],
     },
 )

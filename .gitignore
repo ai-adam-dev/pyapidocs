@@ -1,3 +1,4 @@
 env/
-__init__.py
-yourscript.egg-info/
+*__pycache__/
+build/
+pyapidocs.egg-info/

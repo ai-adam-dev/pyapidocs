@@ -2,7 +2,7 @@ import click
 import ollama
 from yaspin import yaspin
 
-from src.pydoc import PyDoc
+from src.pyapidocs import PyDoc
 
 
 @click.command()
