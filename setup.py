@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pydoc = src.pydoc.main:cli",
+            "pyapidocs = src.main:cli",
         ],
     },
 )
